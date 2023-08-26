@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,6 +19,7 @@
     --grey: rgba(46, 47, 66, 0.70));
     --white: #FFF;
     --navyblue-modal: rgba(46, 47, 66, 0.40));
+    --lightgray: #F4F4FD
 
 }
 
@@ -37,6 +38,7 @@ line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 text-decoration: none;
+margin-left: 156px;
 }
 
 
@@ -44,6 +46,14 @@ text-decoration: none;
     color: var(--iris);
 }
 
+.nav-container{
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
 
 .nav-list{
     list-style: none;
@@ -70,10 +80,39 @@ letter-spacing: 0.32px;
     list-style: none;
 }
 
+.address-contacts-list{
+    display: inline-flex;
+    margin-inline-start: 332px;
+}
+
+
+
 .address-contact-item-link{
     text-decoration: none;
     color: var(--slate);
+    padding-right: 40px;
+    
+
 }
+
+.nav-list{
+    display: inline-flex;
+    margin-left: 40px;
+   
+}
+
+.nav-list-item{
+    margin-left: 40px;
+    
+
+}
+
+
+
+
+
+
+
 
 .section-title-heading{
     
@@ -83,10 +122,12 @@ line-height: 60px; /* 107.143% */
 letter-spacing: 1.12px;
 color: var(--white);
 text-align: center;
+padding: 188px 0 0;
 }
 
 .section-hero{
-    background: var(--navyblue);
+    background-color: var(--navyblue);
+    height: 600px;
 }
 
 .section-hero button{
@@ -97,15 +138,47 @@ padding: 16px 32px;
 align-items: flex-start;
 gap: 10px;
 font-family: Roboto;
-font-size: 16px;
+font-size: 15px;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
 color: var(--white);
+align-items: center;
+margin: 48px 635px 188px 670px;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .features-list{
     list-style: none;
+}
+
+.features-list-item{
+    display: inline-block;
+    padding: 120px 24px 120px 24px;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    gap: 8px;
+}
+
+.section.section-features{
+    margin-left: 156px;
 }
 
 .feature-list-title{
@@ -125,6 +198,16 @@ letter-spacing: 0.32px;
 color: var(--slate);
 }
 
+
+
+
+
+
+
+
+
+
+
 .section-title{
     color: var(--navyblue);
 text-align: center;
@@ -134,15 +217,46 @@ font-weight: 700;
 line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
+padding-bottom: 72px;
 }
 
 .service-image{
     list-style: none;
+    display: inline-flex;
+    margin-left: 195px;
+    margin-right: 156px;
+    margin-bottom: 120px;
 }
+
+.service-image li{
+    padding-right: 24px;
+}
+
+
+
+
+
+.section.section-team{
+    background-color: var(--lightgray);
+    padding-top: 120px;
+}
+
 
 .team-list{
     list-style: none;
 }
+
+.team-list li{
+    display: inline-block;
+}
+
+.team-list{
+    margin-right: 156px;
+    margin-left: 156px;
+    padding-bottom: 120px;
+    justify-content: center;
+}
+
 
 .team-member{
     font-family: Roboto;
@@ -152,7 +266,21 @@ line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
 color: var(--navyblue);
 text-align: center;
+padding-top: 32px;
 }
+
+.team-list-item{
+    border-radius: 0px 0px 4px 4px;
+background: var(--white, #FFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+display: inline-flex;
+padding-bottom: 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
 
 .team-position{
     color: var(--slate);
@@ -161,6 +289,8 @@ font-family: Roboto;
 font-size: 16px;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+padding-top: 8px;
+padding-bottom: 32px;
 }
 
 .portfolio-feature-title{
@@ -176,6 +306,26 @@ color: var(--navyblue)
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     color: var(--slate) 
+}
+
+
+.footer-section-container{
+padding: 120px 156px;
+}
+
+
+.iris-logo{
+    color: var(--iris);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.nav-logo-footer{
+    text-decoration: none;
 }
 
 .white-logo{
@@ -198,6 +348,7 @@ letter-spacing: 0.32px;
 
 footer{
     background: var(--navyblue);
+    height: 312px;
 }
 
 
