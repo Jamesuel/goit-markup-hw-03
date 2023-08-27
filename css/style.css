@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -160,11 +160,6 @@ margin: 48px 635px 188px 670px;
 
 
 
-
-
-
-
-
 .features-list{
     list-style: none;
 }
@@ -254,7 +249,11 @@ padding-bottom: 72px;
     margin-right: 156px;
     margin-left: 156px;
     padding-bottom: 120px;
-    justify-content: center;
+}
+
+.team-list{
+    display: inline-flex;
+
 }
 
 
@@ -269,15 +268,18 @@ text-align: center;
 padding-top: 32px;
 }
 
-.team-list-item{
+
+
+.team-member-container{
     border-radius: 0px 0px 4px 4px;
 background: var(--white, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 display: inline-flex;
-padding-bottom: 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+}
+
+.team-member-container{
+    box-sizing: content-box;
+    margin-right: 48px;
 }
 
 
@@ -387,13 +389,85 @@ font-size: 16px;
 font-weight: 500;
 padding: 12px 24px;
 letter-spacing: 0.64px;
-
-
 }
+
+
+.filter-buttons-list{
+    display: inline-flex;
+    padding: 96px 0 72px 490px;
+}
+
+.filter-buttons-list-item{
+    box-sizing: border-box;
+    padding-right: 24px;
+}
+
+
+
+.section-portfolio-features{
+    display: inline-flex;
+    padding-left: 156px;
+    list-style: none;
+}
+
+
+.portfolio-feature-title{
+    padding-top: 32px;
+}
+
+.portfolio-feature-designation{
+    padding-bottom: 32px;
+    padding-top: 8px;
+}
+
+.portfolio-container h3{
+    margin: 8px;
+}
+
+.portfolio-container p{
+    margin: 8px;
+}
+
 
 .portfolio-features-list-item{
     list-style: none;
 }
+
+.portfolio-container{
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
+    display: inline-flex;
+}
+
+.portfolio-container{
+    box-sizing:border-box;
+    margin-bottom: 48px;
+}
+
+.portfolio-features-list{
+    box-sizing: content-box;
+    align-items: center;
+    
+}
+
+.last-section{
+    margin-bottom: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .address-contacts-list a:hover,
 .address-contacts-list a:focus{
