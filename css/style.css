@@ -155,6 +155,10 @@ color: var(--white);
     padding: 16px 32px;
 }
 
+.order-button:hover{
+    background-color: var(--ocean);
+}
+
 .features-list-item{
     display: inline-block;
     justify-content: flex-start;
@@ -164,6 +168,7 @@ color: var(--white);
 .features-list{
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 .feature-list-title{
@@ -217,6 +222,7 @@ margin-bottom: 72px;
 .team-list{
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 
@@ -273,6 +279,7 @@ color: var(--navyblue)
 
 .nav-logo-footer{
     text-decoration: none;
+    margin-bottom: 16px;
 }
 
 .white-logo{
@@ -294,7 +301,6 @@ letter-spacing: 0.32px;
 
 .footer{
     background: var(--navyblue);
-    height: 312px;
     padding: 120px 0px;
 }
 
@@ -349,7 +355,7 @@ letter-spacing: 0.64px;
     margin-bottom: 8px;
 }
 
-.portfolio-features-list{
+.portfolio-features-list-item{
     display: inline-block;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
@@ -360,18 +366,22 @@ letter-spacing: 0.64px;
 }
 
 .portfolio-features-list{
-    margin:0 24px 48px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
-.portfolio-features-list:nth-child(3){
+.portfolio-features-list-item:nth-child(3){
     margin-right: 0;
 }
 
-.portfolio-features-list:nth-child(6){
+.portfolio-features-list-item:nth-child(6){
     margin-right: 0;
 }
 
-.portfolio-features-list:nth-child(9){
+.portfolio-features-list-item:nth-child(9){
     margin-right: 0;
 }
 
